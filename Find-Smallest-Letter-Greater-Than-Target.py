@@ -8,10 +8,8 @@
 8            if letters[mid]>chr(ord(target)):
 9                ans = letters[mid]
 10                right = mid-1
-11            elif letters[mid]>target:
-12                right = mid-1
-13            else:
-14                left = mid+1
-15        return ans
-16
-17        
+11            else:
+12                left = mid+1
+13        return ans
+14
+15        
